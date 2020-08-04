@@ -1,0 +1,27 @@
+<style>
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin: 0; padding: 0;} table{ border-collapse: collapse; border-spacing: 0;} img{ border: none; vertical-align: bottom;} address,caption,cite,code,dfn,em,strong,th,var{ font-style:normal; font-weight:normal;} article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{ display: block;}
+a{ text-decoration: none; color: #111111;} a:hover{ text-decoration: underline;} label{ cursor: pointer;}
+body{
+color: #333;
+line-height: 1.6;
+}
+#card {
+margin: 10px,;
+width: 280px;
+height: 280px;
+list-style: none;
+}
+#card li {
+margin: none;
+width: 70px;
+height: 70px;
+float: left;
+position: relative;
+}
+#card li img {
+position: absolute;
+}
+#card li.off, #card li.lock {
+pointer-events : none;
+}
+</style>
