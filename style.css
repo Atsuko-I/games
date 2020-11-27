@@ -1,0 +1,167 @@
+html, body {
+	height: 100%;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #263238;
+	font-family: "Open Sans", sans-serif;
+	font-size: 10pt;
+	font-weight: 200;
+	color: #363636;
+}
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+}
+p, ol, ul {
+	margin-top: 0px;
+}
+p {
+	line-height: 190%;
+}
+strong {
+}
+a {
+	color: #1d1d1d;
+}
+a:hover {
+	text-decoration: none;
+}
+a img {
+	border: none;
+}
+.image{
+	display: inline-block;
+}
+.image img {
+	display: block;
+	width: 100%;
+}
+hr {
+	display: none;
+}
+
+/* Wrapper */
+#wrapper {
+	background: #263238 ;
+}
+.container {
+	width: 1200px;
+	margin: 0px auto;
+}
+.clearfix {
+	clear: both;
+}
+
+/* Header-wrapper */
+#header-wrapper {
+	overflow: hidden;
+	background: #263238 ;
+	background-size: 100%;
+	padding: 2em 0em 2em 0em;
+}
+
+/* Header */
+#header	{
+		position: relative;
+		overflow: hidden;
+		text-align: center;
+	}
+
+/* Logo */
+#logo	{
+		width: 500px;
+		height: 40px;
+		margin: 0 auto;
+		padding: 2em 0em;
+		text-transform: uppercase;
+		color: #fff;
+	}
+#logo h1	{
+		letter-spacing: 0.10em;
+		font-size: 3em;
+	}
+#logo p	{
+		letter-spacing: 0.10em;
+		color: #fff;
+	}
+
+/* Content */
+#content {
+	float: left;
+	width: 900px;
+}
+
+/* Main */
+#main-wrapper	{
+		background: #263238;
+		background-size: 100%;
+		overflow: hidden;
+		padding: 5em 0em;
+	}
+#main	{
+		color: #333;
+	}
+#main .title h2	{
+		font-weight: 400;
+		font-size: 1.2em;
+		color: #d70035;
+		text-align: center;
+	}
+#main .style1 a	{
+		font-size:1em;
+		color: #B1B1B1;
+	}
+#box1	{
+		float: center;
+		width: 500px;
+		margin: 0 auto;
+		padding-right: 12px;
+	}
+
+	/* Footer-wrapper */
+	#footer-wrapper	{
+			overflow: hidden;
+			background: #455b66 ;
+			background-size: 100% 5%;
+			padding: 2em 0em 2em 0em;
+		}
+
+	/* Footer */
+	#footer	{
+			overflow: hidden;
+			padding: 2em 0em;
+			text-align: center;
+		}
+	#footer p	{
+			letter-spacing: 0.20em;
+			text-align: center;
+			color: #00bfff;
+		}
+	#footer	img {
+	    width: 30px;
+	    height: auto;
+			vertical-align: bottom;
+	}
+
+/* Card */
+#card	{
+	margin: 10px;
+	width: 80%;
+	height: 350px;
+	list-style: none;
+	}
+#card li	{
+	margin: 10px;
+	width: 80px;
+	height: 80px;
+	float: left;
+	position: relative;
+	}
+#card li img	{
+	position: absolute;
+	}
+#card li.off, #card li.lock	{
+	pointer-events : none;
+	}
